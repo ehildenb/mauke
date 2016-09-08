@@ -1,0 +1,25 @@
+name:               mauke
+version:            0.1.0.0
+synopsis:           MauKe: Maude inspired K
+description:        Please see README.md
+homepage:           http://github.com/ehildenb/mauke
+license:            BSD3
+license-file:       LICENSE
+author:             Everett Hildenbrandt
+maintainer:         hildenb2@illinois.edu
+category:           Web
+build-type:         Simple
+cabal-version:      >=1.10
+
+library
+    hs-source-dirs:     src
+    exposed-modules:    Mauke
+    build-depends:      base , TypeCompose , gll , template-haskell
+    default-language:   Haskell2010
+
+executable mauke
+    hs-source-dirs:     app , src
+    main-is:            Main.hs
+    ghc-options:        -threaded -rtsopts -with-rtsopts=-N
+    build-depends:      base , TypeCompose , gll , template-haskell , split
+    default-language:   Haskell2010
