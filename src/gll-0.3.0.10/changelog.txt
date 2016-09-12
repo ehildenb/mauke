@@ -1,0 +1,13 @@
+0.3.0.7 -> 0.3.0.8
+  + export maximumPivots and maximumPivotAtNt
+0.3.0.8 -> 0.3.0.9
+  + include bit of the input string when showing an error message (without whitespace)
+  + exporting <multiple/some/many>SepBy2
+  + exporting within, parens, braces, brackets, angles, quotes and dquotes
+  + added character literals to Token type
+  + exporting <:=
+  + <<<**> and <**>>> for shortest and longest match, respectively
+    defined some/many and variants using <**>>> and <<<**>
+    disambiguation remains very experimental 
+0.3.0.9 -> 0.3.0.10
+  + exporting chooses

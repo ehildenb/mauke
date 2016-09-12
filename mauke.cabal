@@ -4,8 +4,7 @@ synopsis:           MauKe: Maude inspired K
 description:        Please see README.md
 homepage:           http://github.com/ehildenb/mauke
 license:            BSD3
-license-file:       LICENSE
-author:             Everett Hildenbrandt
+author:             TBD
 maintainer:         hildenb2@illinois.edu
 category:           Web
 build-type:         Simple
